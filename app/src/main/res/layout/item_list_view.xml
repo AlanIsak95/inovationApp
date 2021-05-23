@@ -18,6 +18,7 @@
         android:padding="10dp">
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/itemIdTV"
             android:text="Id: "
             android:textSize="20sp"
@@ -27,6 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:textColor="@color/black"
             android:id="@+id/itemNameTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
 
 
         <TextView
+            android:textColor="@color/black"
             android:text="$"
             android:id="@+id/itemSalaryTV"
             android:layout_width="wrap_content"

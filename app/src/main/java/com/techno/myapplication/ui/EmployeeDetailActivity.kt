@@ -1,6 +1,7 @@
 package com.techno.myapplication.ui
 
 import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
@@ -29,6 +30,7 @@ class EmployeeDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_employee_detail)
         supportActionBar!!.title = "Employee Detail"
+        supportActionBar!!.setBackgroundDrawable(ColorDrawable(resources.getColor(R.color.purple_500)))
 
         setView()
         getDataFromBundle()
